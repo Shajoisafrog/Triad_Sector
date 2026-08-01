@@ -241,6 +241,39 @@
     prototype: Ovinia
     requiredLegs: 2
   - type: HumanoidAppearance
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _MACRO/Mobs/Species/Ovinia/displacement.rsi
+            state: shoes
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _MACRO/Mobs/Species/Ovinia/displacement.rsi
+            state: outerclothing-hardsuit
+  - type: InitialBody
+    organs:
+      Torso: OrganOviniaTorso
+      Head: OrganOviniaHead
+      ArmLeft: OrganOviniaArmLeft
+      ArmRight: OrganOviniaArmRight
+      HandRight: OrganOviniaHandRight
+      HandLeft: OrganOviniaHandLeft
+      LegLeft: OrganOviniaLegLeft
+      LegRight: OrganOviniaLegRight
+      FootLeft: OrganOviniaFootLeft
+      FootRight: OrganOviniaFootRight
+      Brain: OrganOviniaBrain
+      Eyes: OrganOviniaEyes
+      Tongue: OrganOviniaTongue
+      Appendix: OrganOviniaAppendix
+      Ears: OrganOviniaEars
+      Lungs: OrganOviniaLungs
+      Heart: OrganOviniaHeart
+      Stomach: OrganOviniaStomach
+      Liver: OrganOviniaLiver
+      Kidneys: OrganOviniaKidneys
+  - type: HumanoidProfile
     species: Ovinia
 
 - type: entity
