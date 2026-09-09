@@ -41,9 +41,6 @@
     Legs:
       points: 6
       required: false
-    enum.HumanoidVisualLayers.RFoot:
-      limit: 6
-      required: false
 
 - type: entity
   parent: BaseSpeciesAppearance
@@ -142,7 +139,7 @@
     - AnimalFriend
 
 - type: entity
-  parent: OrganBase
+  parent: BaseHumanOrgan
   id: OrganOvinia
   abstract: true
   suffix: ovinia
@@ -166,7 +163,7 @@
       group: Ovinia
 
 - type: entity
-  parent: OrganOvinia
+  parent: BaseHumanOrgan
   id: OrganOviniaExternal
   abstract: true
   components:
@@ -188,11 +185,11 @@
     sprite: Mobs/Species/Human/organs.rsi
 
 - type: entity
-  parent: [ OrganBaseTorsoSexed, OrganBaseTorso, OrganOviniaExternal]
+  parent: [ BaseHumanOrgan, OrganOviniaExternal]
   id: OrganOviniaTorso
 
 - type: entity
-  parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganOviniaExternal ]
+  parent: [ BaseHumanOrgan, OrganOviniaExternal ]
   id: OrganOviniaHead
   components:
   - type: VisualOrganMarkings
@@ -207,43 +204,43 @@
       - enum.HumanoidVisualLayers.SnoutCover
 
 - type: entity
-  parent: [ OrganBaseArmLeft, OrganOviniaExternal ]
+  parent: [ BaseHumanOrgan, OrganOviniaExternal ]
   id: OrganOviniaArmLeft
 
 - type: entity
-  parent: [ OrganBaseArmRight, OrganOviniaExternal ]
+  parent: [ BaseHumanOrgan, OrganOviniaExternal ]
   id: OrganOviniaArmRight
 
 - type: entity
-  parent: [ OrganBaseHandLeft, OrganOviniaExternal ]
+  parent: [ BaseHumanOrgan, OrganOviniaExternal ]
   id: OrganOviniaHandLeft
 
 - type: entity
-  parent: [ OrganBaseHandRight, OrganOviniaExternal ]
+  parent: [ BaseHumanOrgan, OrganOviniaExternal ]
   id: OrganOviniaHandRight
 
 - type: entity
-  parent: [ OrganBaseLegLeft, OrganOviniaExternal ]
+  parent: [ BaseHumanOrgan, OrganOviniaExternal ]
   id: OrganOviniaLegLeft
 
 - type: entity
-  parent: [ OrganBaseLegRight, OrganOviniaExternal ]
+  parent: [ BaseHumanOrgan, OrganOviniaExternal ]
   id: OrganOviniaLegRight
 
 - type: entity
-  parent: [ OrganBaseFootLeft, OrganOviniaExternal ]
+  parent: [ BaseHumanOrgan, OrganOviniaExternal ]
   id: OrganOviniaFootLeft
 
 - type: entity
-  parent: [ OrganBaseFootRight, OrganOviniaExternal ]
+  parent: [ BaseHumanOrgan, OrganOviniaExternal ]
   id: OrganOviniaFootRight
 
 - type: entity
-  parent: [ OrganBaseBrain, OrganSpriteHumanInternal, OrganOviniaInternal ]
+  parent: [ OrganHumanBrain, OrganOviniaInternal ]
   id: OrganOviniaBrain
 
 - type: entity
-  parent: [ OrganOviniaVisual, OrganBaseEyes, OrganOviniaInternal ]
+  parent: [ OrganOviniaVisual, OrganHumanEyes, OrganOviniaInternal ]
   id: OrganOviniaEyes
   components:
   - type: VisualOrgan
@@ -253,33 +250,33 @@
       state: eyes
 
 - type: entity
-  parent: [ OrganBaseTongue, OrganOviniaInternal ]
+  parent: [ OrganHumanTongue, OrganOviniaInternal ]
   id: OrganOviniaTongue
 
 - type: entity
-  parent: [ OrganBaseAppendix, OrganOviniaInternal ]
+  parent: [ OrganHumanAppendix, OrganOviniaInternal ]
   id: OrganOviniaAppendix
 
 - type: entity
-  parent: [ OrganBaseEars, OrganOviniaInternal ]
+  parent: [ OrganHumanEars, OrganOviniaInternal ]
   id: OrganOviniaEars
 
 - type: entity
-  parent: [ OrganBaseLungs, OrganOviniaInternal, OrganOviniaMetabolizer ]
+  parent: [ OrganHumanLungs, OrganOviniaInternal, OrganOviniaMetabolizer ]
   id: OrganOviniaLungs
 
 - type: entity
-  parent: [ OrganBaseHeart, OrganOviniaInternal, OrganOviniaMetabolizer ]
+  parent: [ OrganHumanHeart, OrganOviniaInternal, OrganOviniaMetabolizer ]
   id: OrganOviniaHeart
 
 - type: entity
-  parent: [ OrganBaseStomach, OrganOviniaInternal, OrganOviniaMetabolizer ]
+  parent: [ OrganHumanStomach, OrganOviniaInternal, OrganOviniaMetabolizer ]
   id: OrganOviniaStomach
 
 - type: entity
-  parent: [ OrganBaseLiver, OrganOviniaInternal, OrganOviniaMetabolizer ]
+  parent: [ OrganHumanLiver, OrganOviniaInternal, OrganOviniaMetabolizer ]
   id: OrganOviniaLiver
 
 - type: entity
-  parent: [ OrganBaseKidneys, OrganOviniaInternal, OrganOviniaMetabolizer ]
+  parent: [ OrganHumanKidneys, OrganOviniaInternal, OrganOviniaMetabolizer ]
   id: OrganOviniaKidneys
