@@ -1,3 +1,55 @@
+- type: body
+  id: Ovinia
+  name: "ovinia"
+  root: torso
+  slots:
+    head:
+      part: HeadHuman
+      connections:
+      - torso
+      organs:
+        brain: OrganOviniaBrain
+        eyes: OrganOviniaEyes
+        ears: OrganOviniaEars
+    torso:
+      part: TorsoHuman
+      connections:
+      - right arm
+      - left arm
+      - right leg
+      - left leg
+      - head
+      organs:
+        heart: OrganOviniaHeart
+        lungs: OrganOviniaLungs
+        stomach: OrganOviniaStomach
+        liver: OrganOviniaLiver
+        kidneys: OrganOviniaKidneys
+    right arm:
+      part: RightArmHuman
+      connections:
+      - right hand
+    left arm:
+      part: LeftArmHuman
+      connections:
+      - left hand
+    right hand:
+      part: RightHandHuman
+    left hand:
+      part: LeftHandHuman
+    right leg:
+      part: RightLegHuman
+      connections:
+      - right foot
+    left leg:
+      part: LeftLegHuman
+      connections:
+      - left foot
+    right foot:
+      part: RightFootHuman
+    left foot:
+      part: LeftFootHuman
+
 - type: markingPoints
   id: MobOviniaMarkingLimits
   onlyWhitelisted: true
@@ -43,7 +95,7 @@
       required: false
 
 - type: entity
-  parent: BaseSpeciesAppearance
+  parent: BaseSpeciesDummy
   id: AppearanceOvinia
   name: ovinia appearance
   components:
@@ -70,42 +122,24 @@
           32:
             sprite: _MACRO/Mobs/Species/Ovinia/displacement.rsi
             state: jumpsuit-female
-  - type: InitialBody
-    organs:
-      Torso: OrganOviniaTorso
-      Head: OrganOviniaHead
-      ArmLeft: OrganOviniaArmLeft
-      ArmRight: OrganOviniaArmRight
-      HandRight: OrganOviniaHandRight
-      HandLeft: OrganOviniaHandLeft
-      LegLeft: OrganOviniaLegLeft
-      LegRight: OrganOviniaLegRight
-      FootLeft: OrganOviniaFootLeft
-      FootRight: OrganOviniaFootRight
-      Brain: OrganOviniaBrain
-      Eyes: OrganOviniaEyes
-      Tongue: OrganOviniaTongue
-      Appendix: OrganOviniaAppendix
-      Ears: OrganOviniaEars
-      Lungs: OrganOviniaLungs
-      Heart: OrganOviniaHeart
-      Stomach: OrganOviniaStomach
-      Liver: OrganOviniaLiver
-      Kidneys: OrganOviniaKidneys
-  - type: HumanoidProfile
-    species: Ovinia
+  - type: Body
+    prototype: Ovinia
+    requiredLegs: 2
 
 - type: entity
   parent:
   - AppearanceOvinia
-  - BaseSpeciesMobOrganic
+  - BaseMobSpeciesOrganic
   id: MobOvinia
   name: Urist McSheepie
   components:
   - type: TypingIndicator
     proto: ovinia
   - type: Vocal
-    emoteSounds: MaleOvinia
+    sounds:
+      Male: MaleOvinia
+      Female: FemaleOvinia
+      Unsexed: MaleOvinia
   - type: Speech
     speechSounds: Ovinia
     speechVerb: Ovinia
@@ -152,29 +186,12 @@
     metabolizerTypes: [ Animal ]
 
 - type: entity
-  id: OrganOviniaVisual
-  abstract: true
-  components:
-  - type: VisualOrgan
-    data:
-      sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
-  - type: VisualOrganMarkings
-    markingData:
-      group: Ovinia
-
-- type: entity
   parent: BaseHumanOrgan
   id: OrganOviniaExternal
   abstract: true
   components:
   - type: Sprite
     sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
-  - type: VisualOrgan
-    data:
-      sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
-  - type: VisualOrganMarkings
-    markingData:
-      group: Ovinia
 
 - type: entity
   parent: OrganOvinia
@@ -191,17 +208,6 @@
 - type: entity
   parent: [ BaseHumanOrgan, OrganOviniaExternal ]
   id: OrganOviniaHead
-  components:
-  - type: VisualOrganMarkings
-    hideableLayers:
-    - enum.HumanoidVisualLayers.Snout
-    - enum.HumanoidVisualLayers.HeadTop
-    - enum.HumanoidVisualLayers.HeadSide
-    - enum.HumanoidVisualLayers.Hair
-    - enum.HumanoidVisualLayers.FacialHair
-    dependentHidingLayers:
-      enum.HumanoidVisualLayers.Snout:
-      - enum.HumanoidVisualLayers.SnoutCover
 
 - type: entity
   parent: [ BaseHumanOrgan, OrganOviniaExternal ]
@@ -240,14 +246,12 @@
   id: OrganOviniaBrain
 
 - type: entity
-  parent: [ OrganOviniaVisual, OrganHumanEyes, OrganOviniaInternal ]
+  parent: [ OrganHumanEyes, OrganOviniaInternal ]
   id: OrganOviniaEyes
   components:
-  - type: VisualOrgan
-    layer: enum.HumanoidVisualLayers.Eyes
-    data:
-      sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
-      state: eyes
+  - type: Sprite
+    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    state: eyes
 
 - type: entity
   parent: [ OrganHumanTongue, OrganOviniaInternal ]
