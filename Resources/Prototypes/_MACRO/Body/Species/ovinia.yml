@@ -50,6 +50,95 @@
     left foot:
       part: LeftFootHuman
 
+- type: speciesBaseSprites
+  id: MobOviniaSprites
+  sprites:
+    Head: MobOviniaHead
+    Hair: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
+    Snout: MobHumanoidAnyMarking
+    UndergarmentTop: MobHumanoidAnyMarking
+    UndergarmentBottom: MobHumanoidAnyMarking
+    Chest: MobOviniaTorso
+    Eyes: MobOviniaEyes
+    HeadTop: MobHumanoidAnyMarking
+    HeadSide: MobHumanoidAnyMarking
+    LArm: MobOviniaLArm
+    RArm: MobOviniaRArm
+    LHand: MobOviniaLHand
+    RHand: MobOviniaRHand
+    LLeg: MobOviniaLLeg
+    RLeg: MobOviniaRLeg
+    LFoot: MobOviniaLFoot
+    RFoot: MobOviniaRFoot
+    Tail: MobHumanoidAnyMarking
+
+- type: humanoidBaseSprite
+  id: MobOviniaHead
+  baseSprite:
+    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobOviniaTorso
+  baseSprite:
+    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobOviniaLArm
+  baseSprite:
+    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobOviniaRArm
+  baseSprite:
+    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobOviniaLHand
+  baseSprite:
+    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobOviniaRHand
+  baseSprite:
+    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobOviniaLLeg
+  baseSprite:
+    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobOviniaRLeg
+  baseSprite:
+    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobOviniaLFoot
+  baseSprite:
+    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobOviniaRFoot
+  baseSprite:
+    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    state: r_foot
+
+- type: humanoidBaseSprite
+  id: MobOviniaEyes
+  baseSprite:
+    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    state: eyes
+
 - type: markingPoints
   id: MobOviniaMarkingLimits
   onlyWhitelisted: true

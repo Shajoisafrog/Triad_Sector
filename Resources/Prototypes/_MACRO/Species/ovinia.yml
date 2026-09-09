@@ -4,6 +4,7 @@
   roundStart: true
   #randomViable: false
   prototype: MobOvinia
+  sprites: MobOviniaSprites
   defaultSkinTone: "#ffffff"
   dollPrototype: AppearanceOvinia
   skinColoration: Hues
