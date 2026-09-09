@@ -6,7 +6,7 @@
   prototype: MobOvinia
   sprites: MobOviniaSprites
   defaultSkinTone: "#ffffff"
-  dollPrototype: AppearanceOvinia
+  dollPrototype: MobOviniaDummy
   skinColoration: Hues
   maleFirstNames: NamesOviniaFirst
   markingLimits: MobOviniaMarkingLimits

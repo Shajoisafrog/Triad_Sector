@@ -53,6 +53,8 @@
 - type: speciesBaseSprites
   id: MobOviniaSprites
   sprites:
+    TailBehind: MobHumanoidAnyMarking
+    TailOversuit: MobHumanoidAnyMarking
     Head: MobOviniaHead
     Hair: MobHumanoidAnyMarking
     FacialHair: MobHumanoidAnyMarking
@@ -80,10 +82,34 @@
     state: head_m
 
 - type: humanoidBaseSprite
+  id: MobOviniaHeadMale
+  baseSprite:
+    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobOviniaHeadFemale
+  baseSprite:
+    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
   id: MobOviniaTorso
   baseSprite:
     sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
     state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobOviniaTorsoMale
+  baseSprite:
+    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobOviniaTorsoFemale
+  baseSprite:
+    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    state: torso_f
 
 - type: humanoidBaseSprite
   id: MobOviniaLArm
@@ -204,7 +230,7 @@
         sizeMaps:
           32:
             sprite: _MACRO/Mobs/Species/Ovinia/displacement.rsi
-            state: outerclothing-hardsuit
+            state: outerclothing_hardsuit
     femaleDisplacements:
       jumpsuit:
         sizeMaps:
@@ -251,7 +277,7 @@
   - type: SleepTimeModifier
     modifier: 2
   - type: PettingChanceModifier
-    modifier: 1.2
+    modifier: 1.0
   - type: ProtectedFromStepTriggers
   - type: Tag
     tags:
@@ -264,6 +290,15 @@
   - type: NpcFactionMember
     factions:
     - AnimalFriend
+
+- type: entity
+  parent: MobHumanDummy
+  id: MobOviniaDummy
+  categories: [ HideSpawnMenu ]
+  description: A dummy Ovinia meant to be used in character setup.
+  components:
+  - type: HumanoidAppearance
+    species: Ovinia
 
 - type: entity
   parent: BaseHumanOrgan
@@ -279,60 +314,12 @@
     metabolizerTypes: [ Animal ]
 
 - type: entity
-  parent: BaseHumanOrgan
-  id: OrganOviniaExternal
-  abstract: true
-  components:
-  - type: Sprite
-    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
-
-- type: entity
   parent: OrganOvinia
   id: OrganOviniaInternal
   abstract: true
   components:
   - type: Sprite
     sprite: Mobs/Species/Human/organs.rsi
-
-- type: entity
-  parent: [ BaseHumanOrgan, OrganOviniaExternal]
-  id: OrganOviniaTorso
-
-- type: entity
-  parent: [ BaseHumanOrgan, OrganOviniaExternal ]
-  id: OrganOviniaHead
-
-- type: entity
-  parent: [ BaseHumanOrgan, OrganOviniaExternal ]
-  id: OrganOviniaArmLeft
-
-- type: entity
-  parent: [ BaseHumanOrgan, OrganOviniaExternal ]
-  id: OrganOviniaArmRight
-
-- type: entity
-  parent: [ BaseHumanOrgan, OrganOviniaExternal ]
-  id: OrganOviniaHandLeft
-
-- type: entity
-  parent: [ BaseHumanOrgan, OrganOviniaExternal ]
-  id: OrganOviniaHandRight
-
-- type: entity
-  parent: [ BaseHumanOrgan, OrganOviniaExternal ]
-  id: OrganOviniaLegLeft
-
-- type: entity
-  parent: [ BaseHumanOrgan, OrganOviniaExternal ]
-  id: OrganOviniaLegRight
-
-- type: entity
-  parent: [ BaseHumanOrgan, OrganOviniaExternal ]
-  id: OrganOviniaFootLeft
-
-- type: entity
-  parent: [ BaseHumanOrgan, OrganOviniaExternal ]
-  id: OrganOviniaFootRight
 
 - type: entity
   parent: [ OrganHumanBrain, OrganOviniaInternal ]
