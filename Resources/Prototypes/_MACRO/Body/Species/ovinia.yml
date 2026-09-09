@@ -167,7 +167,7 @@
 
 - type: markingPoints
   id: MobOviniaMarkingLimits
-  onlyWhitelisted: true
+  onlyWhitelisted: false
   points:
     Hair:
       points: 1
