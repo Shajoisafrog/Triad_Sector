@@ -65,6 +65,7 @@ public sealed partial class SleepingSystem : EntitySystem
         SubscribeLocalEvent<SleepingComponent, InteractHandEvent>(OnInteractHand);
 
         SubscribeLocalEvent<ForcedSleepingComponent, ComponentInit>(OnInit);
+        SubscribeLocalEvent<StatusEffectAddedEvent>(OnStatusEffectApplied);
         SubscribeLocalEvent<SleepingComponent, UnbuckleAttemptEvent>(OnUnbuckleAttempt);
         SubscribeLocalEvent<SleepingComponent, EmoteAttemptEvent>(OnEmoteAttempt);
 
@@ -258,25 +259,27 @@ public sealed partial class SleepingSystem : EntitySystem
         RaiseLocalEvent(ent, ref ev);
 
         _blindableSystem.UpdateIsBlind(ent.Owner);
-    private void OnStatusEffectApplied(Entity<ForcedSleepingStatusEffectComponent> ent, ref StatusEffectAppliedEvent args)
+    }
+
+    private void OnStatusEffectApplied(StatusEffectAddedEvent args)
     {
         // MACRO START: SleepTimeModifier to modify force sleep duration
         // IF YOU ARE HERE TO ADD MORE TRYCOMPS: dont. make a new event instead.
-        if (TryComp<SleepTimeModifierComponent>(args.Target, out var sleepTimeModifier) &&
-            _statusEffect.TryGetTime(args.Target, StatusEffectForcedSleeping, out var initTime))
-        {
-            var time = initTime.EndEffectTime - initTime.StartEffectTime;
-            _statusEffect.TryUpdateStatusEffectDuration(
-                args.Target,
-                StatusEffectForcedSleeping,
-                time * sleepTimeModifier.Modifier);
-        }
-        // MACRO END
+        if (args.Key != "ForcedSleep" ||
+            !TryComp<SleepTimeModifierComponent>(args.Uid, out var sleepTimeModifier) ||
+            !_statusEffectsSystem.TryGetTime(args.Uid, args.Key, out var initTime))
+            return;
+
+        var time = initTime.Value.Item2 - initTime.Value.Item1;
+        _statusEffectsSystem.TrySetTime(
+            args.Uid,
+            args.Key,
+            time * sleepTimeModifier.Modifier);
 
         // Applying state check needed so we don't add SleepingComp during
         // entity reset due to the status effect getting inserted
         if (!_gameTiming.ApplyingState)
-            TrySleeping(args.Target);
+            TrySleeping(args.Uid);
     }
 
     /// <summary>
