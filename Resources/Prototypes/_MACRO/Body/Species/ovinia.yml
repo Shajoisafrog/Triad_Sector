@@ -125,6 +125,8 @@
   - type: Body
     prototype: Ovinia
     requiredLegs: 2
+  - type: HumanoidAppearance
+    species: Ovinia
 
 - type: entity
   parent:
@@ -144,6 +146,8 @@
     speechSounds: Ovinia
     speechVerb: Ovinia
     allowedEmotes: [ 'Baa', 'Moo' ]
+  - type: HumanoidAppearance
+    species: Ovinia
   - type: Damageable
     damageModifierSet: Ovinia
   - type: Flammable
