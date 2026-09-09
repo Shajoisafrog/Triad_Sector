@@ -8,6 +8,7 @@
   dollPrototype: AppearanceOvinia
   skinColoration: Hues
   maleFirstNames: NamesOviniaFirst
+  markingLimits: MobOviniaMarkingLimits
   femaleFirstNames: NamesOviniaFirst
   lastNames: NamesOviniaLast
   sexes:

@@ -1,60 +1,45 @@
-- type: markingsGroup
-  id: Ovinia
-  onlyGroupWhitelisted: true
-  limits:
-    enum.HumanoidVisualLayers.Hair:
-      limit: 1
+- type: markingPoints
+  id: MobOviniaMarkingLimits
+  onlyWhitelisted: true
+  points:
+    Hair:
+      points: 1
       required: false
-    enum.HumanoidVisualLayers.FacialHair:
-      limit: 1
+    FacialHair:
+      points: 1
       required: false
-    enum.HumanoidVisualLayers.Head:
-      limit: 6
+    Head:
+      points: 6
       required: false
-    enum.HumanoidVisualLayers.HeadTop:
-      limit: 1
+    HeadTop:
+      points: 2
       required: false
-    enum.HumanoidVisualLayers.HeadSide:
-      limit: 1
-      default: [ OviniaEars ]
+    HeadSide:
+      points: 1
+      defaultMarkings: [ OviniaEars ]
       required: true
-    enum.HumanoidVisualLayers.UndergarmentTop:
-      limit: 1
+    UndergarmentTop:
+      points: 1
       required: false
-    enum.HumanoidVisualLayers.UndergarmentBottom:
-      limit: 1
+    UndergarmentBottom:
+      points: 1
       required: false
-    enum.HumanoidVisualLayers.Chest:
-      limit: 6
+    Chest:
+      points: 6
       required: false
-    enum.HumanoidVisualLayers.Snout:
-      limit: 1
+    Snout:
+      points: 1
       required: true
-      default: [ OviniaSnout ]
-    enum.HumanoidVisualLayers.Tail:
-      limit: 1
+      defaultMarkings: [ OviniaSnout ]
+    Tail:
+      points: 1
       required: true
-      default: [ OviniaTail ]
-    enum.HumanoidVisualLayers.LArm:
-      limit: 6
+      defaultMarkings: [ OviniaTail ]
+    Arms:
+      points: 6
       required: false
-    enum.HumanoidVisualLayers.RArm:
-      limit: 6
-      required: false
-    enum.HumanoidVisualLayers.LHand:
-      limit: 6
-      required: false
-    enum.HumanoidVisualLayers.RHand:
-      limit: 6
-      required: false
-    enum.HumanoidVisualLayers.LLeg:
-      limit: 6
-      required: false
-    enum.HumanoidVisualLayers.RLeg:
-      limit: 6
-      required: false
-    enum.HumanoidVisualLayers.LFoot:
-      limit: 6
+    Legs:
+      points: 6
       required: false
     enum.HumanoidVisualLayers.RFoot:
       limit: 6
