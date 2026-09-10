@@ -6,7 +6,7 @@
   markingCategory: HeadTop
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/horn_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/horn_markings.rsi
       state: ovinia-lamb-horns
 
 - type: marking
@@ -15,7 +15,7 @@
   markingCategory: HeadTop
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/horn_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/horn_markings.rsi
       state: ovinia-ram-horns
 
 - type: marking
@@ -24,7 +24,7 @@
   markingCategory: HeadTop
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/horn_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/horn_markings.rsi
       state: ovinia-pointy-horns
 
 - type: marking
@@ -33,7 +33,7 @@
   markingCategory: HeadTop
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/horn_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/horn_markings.rsi
       state: ovinia-curved-horns
 
 - type: marking
@@ -42,7 +42,7 @@
   markingCategory: HeadTop
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/horn_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/horn_markings.rsi
       state: ovinia-deer-horns
 
 - type: marking
@@ -51,7 +51,7 @@
   markingCategory: HeadTop
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/horn_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/horn_markings.rsi
       state: ovinia-devil-horns
 
 - type: marking
@@ -60,7 +60,7 @@
   markingCategory: HeadTop
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/horn_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/horn_markings.rsi
       state: ovinia-baphomet-horns
 
 - type: marking
@@ -69,7 +69,7 @@
   markingCategory: HeadTop
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/horn_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/horn_markings.rsi
       state: ovinia-ibex-horns
 
 - type: marking
@@ -78,7 +78,7 @@
   markingCategory: HeadTop
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/horn_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/horn_markings.rsi
       state: ovinia-jacob-horns
 
 # Ears
@@ -89,9 +89,9 @@
   markingCategory: HeadSide
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/ear_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/ear_markings.rsi
       state: ovinia-ears
-    - sprite: _MACRO/Mobs/Customization/Ovinia/ear_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/ear_markings.rsi
       state: ovinia-ears-inner
 
 - type: marking
@@ -100,9 +100,9 @@
   markingCategory: HeadSide
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/ear_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/ear_markings.rsi
       state: cow-ears
-    - sprite: _MACRO/Mobs/Customization/Ovinia/ear_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/ear_markings.rsi
       state: cow-ears-inner
 
 - type: marking
@@ -111,9 +111,9 @@
   markingCategory: HeadSide
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/ear_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/ear_markings.rsi
       state: deer-ears
-    - sprite: _MACRO/Mobs/Customization/Ovinia/ear_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/ear_markings.rsi
       state: deer-ears-inner
 
 - type: marking
@@ -122,9 +122,9 @@
   markingCategory: HeadSide
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/ear_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/ear_markings.rsi
       state: horse-ears
-    - sprite: _MACRO/Mobs/Customization/Ovinia/ear_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/ear_markings.rsi
       state: horse-ears-inner
 
 # Head
@@ -137,7 +137,7 @@
   markingCategory: FacialHair
   speciesRestriction: [ Ovinia ]
   sprites:
-  - sprite: _MACRO/Mobs/Customization/Ovinia/head_markings.rsi
+  - sprite: _Triad/Mobs/Customization/Ovinia/head_markings.rsi
     state: ovinia-neck-fluff
 
 # Snout
@@ -148,9 +148,9 @@
   markingCategory: Snout
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/snout_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/snout_markings.rsi
       state: ovinia-snout
-    - sprite: _MACRO/Mobs/Customization/Ovinia/snout_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/snout_markings.rsi
       state: ovinia-nose
 
 - type: marking
@@ -159,9 +159,9 @@
   markingCategory: Snout
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/snout_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/snout_markings.rsi
       state: ovinia-face
-    - sprite: _MACRO/Mobs/Customization/Ovinia/snout_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/snout_markings.rsi
       state: ovinia-nose
 
 - type: marking
@@ -170,9 +170,9 @@
   markingCategory: Snout
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/snout_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/snout_markings.rsi
       state: ovinia-blaze
-    - sprite: _MACRO/Mobs/Customization/Ovinia/snout_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/snout_markings.rsi
       state: ovinia-nose
 
 # Chest
@@ -182,7 +182,7 @@
   markingCategory: Chest
   speciesRestriction: [ Ovinia ]
   sprites:
-  - sprite: _MACRO/Mobs/Customization/Ovinia/body_markings.rsi
+  - sprite: _Triad/Mobs/Customization/Ovinia/body_markings.rsi
     state: ovinia-tummy
 
 - type: marking
@@ -191,7 +191,7 @@
   markingCategory: Chest
   speciesRestriction: [ Ovinia ]
   sprites:
-  - sprite: _MACRO/Mobs/Customization/Ovinia/body_markings.rsi
+  - sprite: _Triad/Mobs/Customization/Ovinia/body_markings.rsi
     state: ovinia-full-m
 
 - type: marking
@@ -200,7 +200,7 @@
   markingCategory: Chest
   speciesRestriction: [ Ovinia ]
   sprites:
-  - sprite: _MACRO/Mobs/Customization/Ovinia/body_markings.rsi
+  - sprite: _Triad/Mobs/Customization/Ovinia/body_markings.rsi
     state: ovinia-full-f
 
 - type: marking
@@ -209,7 +209,7 @@
   markingCategory: Chest
   speciesRestriction: [ Ovinia ]
   sprites:
-  - sprite: _MACRO/Mobs/Customization/Ovinia/body_markings.rsi
+  - sprite: _Triad/Mobs/Customization/Ovinia/body_markings.rsi
     state: torso-fawn
   coloring:
     default:
@@ -222,7 +222,7 @@
   markingCategory: Chest
   speciesRestriction: [ Ovinia ]
   sprites:
-  - sprite: _MACRO/Mobs/Customization/Ovinia/body_markings.rsi
+  - sprite: _Triad/Mobs/Customization/Ovinia/body_markings.rsi
     state: torso-cow-m
 
 - type: marking
@@ -231,7 +231,7 @@
   markingCategory: Chest
   speciesRestriction: [ Ovinia ]
   sprites:
-  - sprite: _MACRO/Mobs/Customization/Ovinia/body_markings.rsi
+  - sprite: _Triad/Mobs/Customization/Ovinia/body_markings.rsi
     state: torso-cow-f
 
 # RArm
@@ -241,7 +241,7 @@
   markingCategory: Arms
   speciesRestriction: [ Ovinia ]
   sprites:
-  - sprite: _MACRO/Mobs/Customization/Ovinia/body_markings.rsi
+  - sprite: _Triad/Mobs/Customization/Ovinia/body_markings.rsi
     state: ovinia-arm-valais-right
 
 # LArm
@@ -252,7 +252,7 @@
   markingCategory: Arms
   speciesRestriction: [ Ovinia ]
   sprites:
-  - sprite: _MACRO/Mobs/Customization/Ovinia/body_markings.rsi
+  - sprite: _Triad/Mobs/Customization/Ovinia/body_markings.rsi
     state: ovinia-arm-valais-left
 
 # RHand
@@ -263,7 +263,7 @@
   markingCategory: Arms
   speciesRestriction: [ Ovinia ]
   sprites:
-  - sprite: _MACRO/Mobs/Customization/Ovinia/body_markings.rsi
+  - sprite: _Triad/Mobs/Customization/Ovinia/body_markings.rsi
     state: hand-hoof-right
   coloring:
      default:
@@ -278,7 +278,7 @@
   markingCategory: Arms
   speciesRestriction: [ Ovinia ]
   sprites:
-  - sprite: _MACRO/Mobs/Customization/Ovinia/body_markings.rsi
+  - sprite: _Triad/Mobs/Customization/Ovinia/body_markings.rsi
     state: hand-hoof-left
   coloring:
      default:
@@ -293,7 +293,7 @@
   markingCategory: Tail
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/tail_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/tail_markings.rsi
       state: ovinia-tail_wag
 
 - type: marking
@@ -302,7 +302,7 @@
   markingCategory: Tail
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/tail_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/tail_markings.rsi
       state: ovinia-tail
 
 # RLeg
@@ -313,7 +313,7 @@
   markingCategory: Legs
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/body_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/body_markings.rsi
       state: ovinia-leg-valais-right
 
 # LLeg
@@ -324,7 +324,7 @@
   markingCategory: Legs
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/body_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/body_markings.rsi
       state: ovinia-leg-valais-left
 
 # RFoot
@@ -335,7 +335,7 @@
   markingCategory: Legs
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/body_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/body_markings.rsi
       state: ovinia-hoof-right
   coloring:
      default:
@@ -350,7 +350,7 @@
   markingCategory: Legs
   speciesRestriction: [ Ovinia ]
   sprites:
-    - sprite: _MACRO/Mobs/Customization/Ovinia/body_markings.rsi
+    - sprite: _Triad/Mobs/Customization/Ovinia/body_markings.rsi
       state: ovinia-hoof-left
   coloring:
      default:

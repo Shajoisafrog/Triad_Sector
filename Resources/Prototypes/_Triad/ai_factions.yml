@@ -54,3 +54,9 @@
 - type: npcFaction
   id: ShipDrone
   defaultHostileIncluded: false
+
+#Macro Ovinia
+- type: npcFaction # for ovinia's animal friend trait (makes bees, space kangaroos and bears, and angry slimes not including reagents be friendly towards ovinia)
+  id: AnimalFriend
+  hostile:
+  - SimpleHostile

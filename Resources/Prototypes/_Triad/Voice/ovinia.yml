@@ -10,11 +10,11 @@
 - type: speechSounds
   id: Ovinia
   saySound:
-    path: /Audio/_MACRO/Voice/Ovinia/ovinia_say.ogg
+    path: /Audio/_Triad/Voice/Ovinia/ovinia_say.ogg
   askSound:
-    path: /Audio/_MACRO/Voice/Ovinia/ovinia_ask.ogg
+    path: /Audio/_Triad/Voice/Ovinia/ovinia_ask.ogg
   exclaimSound:
-    path: /Audio/_MACRO/Voice/Ovinia/ovinia_exclaim.ogg
+    path: /Audio/_Triad/Voice/Ovinia/ovinia_exclaim.ogg
 
 - type: emoteSounds
   id: MaleOvinia
@@ -22,7 +22,7 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/_MACRO/Voice/Ovinia/ovinia_scream.ogg
+      path: /Audio/_Triad/Voice/Ovinia/ovinia_scream.ogg
     Laugh:
       collection: MaleLaugh
     Sneeze:
@@ -60,7 +60,7 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/_MACRO/Voice/Ovinia/ovinia_scream.ogg
+      path: /Audio/_Triad/Voice/Ovinia/ovinia_scream.ogg
     Laugh:
       collection: FemaleLaugh
     Sneeze:

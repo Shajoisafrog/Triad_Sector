@@ -78,91 +78,91 @@
 - type: humanoidBaseSprite
   id: MobOviniaHead
   baseSprite:
-    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    sprite: _Triad/Mobs/Species/Ovinia/parts.rsi
     state: head_m
 
 - type: humanoidBaseSprite
   id: MobOviniaHeadMale
   baseSprite:
-    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    sprite: _Triad/Mobs/Species/Ovinia/parts.rsi
     state: head_m
 
 - type: humanoidBaseSprite
   id: MobOviniaHeadFemale
   baseSprite:
-    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    sprite: _Triad/Mobs/Species/Ovinia/parts.rsi
     state: head_f
 
 - type: humanoidBaseSprite
   id: MobOviniaTorso
   baseSprite:
-    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    sprite: _Triad/Mobs/Species/Ovinia/parts.rsi
     state: torso_m
 
 - type: humanoidBaseSprite
   id: MobOviniaTorsoMale
   baseSprite:
-    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    sprite: _Triad/Mobs/Species/Ovinia/parts.rsi
     state: torso_m
 
 - type: humanoidBaseSprite
   id: MobOviniaTorsoFemale
   baseSprite:
-    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    sprite: _Triad/Mobs/Species/Ovinia/parts.rsi
     state: torso_f
 
 - type: humanoidBaseSprite
   id: MobOviniaLArm
   baseSprite:
-    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    sprite: _Triad/Mobs/Species/Ovinia/parts.rsi
     state: l_arm
 
 - type: humanoidBaseSprite
   id: MobOviniaRArm
   baseSprite:
-    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    sprite: _Triad/Mobs/Species/Ovinia/parts.rsi
     state: r_arm
 
 - type: humanoidBaseSprite
   id: MobOviniaLHand
   baseSprite:
-    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    sprite: _Triad/Mobs/Species/Ovinia/parts.rsi
     state: l_hand
 
 - type: humanoidBaseSprite
   id: MobOviniaRHand
   baseSprite:
-    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    sprite: _Triad/Mobs/Species/Ovinia/parts.rsi
     state: r_hand
 
 - type: humanoidBaseSprite
   id: MobOviniaLLeg
   baseSprite:
-    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    sprite: _Triad/Mobs/Species/Ovinia/parts.rsi
     state: l_leg
 
 - type: humanoidBaseSprite
   id: MobOviniaRLeg
   baseSprite:
-    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    sprite: _Triad/Mobs/Species/Ovinia/parts.rsi
     state: r_leg
 
 - type: humanoidBaseSprite
   id: MobOviniaLFoot
   baseSprite:
-    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    sprite: _Triad/Mobs/Species/Ovinia/parts.rsi
     state: l_foot
 
 - type: humanoidBaseSprite
   id: MobOviniaRFoot
   baseSprite:
-    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    sprite: _Triad/Mobs/Species/Ovinia/parts.rsi
     state: r_foot
 
 - type: humanoidBaseSprite
   id: MobOviniaEyes
   baseSprite:
-    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    sprite: _Triad/Mobs/Species/Ovinia/parts.rsi
     state: eyes
 
 - type: markingPoints
@@ -244,23 +244,23 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: _MACRO/Mobs/Species/Ovinia/displacement.rsi
+            sprite: _Triad/Mobs/Species/Ovinia/displacement.rsi
             state: jumpsuit
       shoes:
         sizeMaps:
           32:
-            sprite: _MACRO/Mobs/Species/Ovinia/displacement.rsi
+            sprite: _Triad/Mobs/Species/Ovinia/displacement.rsi
             state: shoes
       outerClothing:
         sizeMaps:
           32:
-            sprite: _MACRO/Mobs/Species/Ovinia/displacement.rsi
+            sprite: _Triad/Mobs/Species/Ovinia/displacement.rsi
             state: outerclothing-hardsuit
     femaleDisplacements:
       jumpsuit:
         sizeMaps:
           32:
-            sprite: _MACRO/Mobs/Species/Ovinia/displacement.rsi
+            sprite: _Triad/Mobs/Species/Ovinia/displacement.rsi
             state: jumpsuit-female
   - type: HumanoidAppearance
     species: Ovinia
@@ -306,23 +306,23 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: _MACRO/Mobs/Species/Ovinia/displacement.rsi
+            sprite: _Triad/Mobs/Species/Ovinia/displacement.rsi
             state: jumpsuit
       shoes:
         sizeMaps:
           32:
-            sprite: _MACRO/Mobs/Species/Ovinia/displacement.rsi
+            sprite: _Triad/Mobs/Species/Ovinia/displacement.rsi
             state: shoes
       outerClothing:
         sizeMaps:
           32:
-            sprite: _MACRO/Mobs/Species/Ovinia/displacement.rsi
+            sprite: _Triad/Mobs/Species/Ovinia/displacement.rsi
             state: outerclothing-hardsuit
     femaleDisplacements:
       jumpsuit:
         sizeMaps:
           32:
-            sprite: _MACRO/Mobs/Species/Ovinia/displacement.rsi
+            sprite: _Triad/Mobs/Species/Ovinia/displacement.rsi
             state: jumpsuit-female
 
 - type: entity
@@ -355,7 +355,7 @@
   id: OrganOviniaEyes
   components:
   - type: Sprite
-    sprite: _MACRO/Mobs/Species/Ovinia/parts.rsi
+    sprite: _Triad/Mobs/Species/Ovinia/parts.rsi
     state: eyes
 
 - type: entity
