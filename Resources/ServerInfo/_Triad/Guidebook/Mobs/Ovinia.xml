@@ -1,40 +1,81 @@
 <Document>
- # Ovinia
+  <Box HorizontalAlignment="Center">
+    [mono][color=#897236]╔════════════════════════════════════════════════════╗[/color]\n[color=#897236]║ [/color][color=#ffd688]TDF // BUREAU OF PERSONNEL[/color][color=#897236]          Form BP-22b/v3 ║[/color]\n[color=#897236]║ PERSONNEL DOSSIER            FOR OFFICIAL USE ONLY ║[/color]\n[color=#897236]╚════════════════════════════════════════════════════╝[/color][/mono]
+  </Box>
 
-<Box>
-  <GuideEntityEmbed Entity="MobOvinia" Caption=""/>
-</Box>
+  <Box HorizontalAlignment="Center">
+    [head=2][color=#897236]──────═════  [head=1]◊[/head]  ═════──────[/color][/head]
+  </Box>
 
-Ovinia are a species of ruminant-like humanoids native to the pasture world of Runia, located in the binary Lanei system. Known for its vast, flowing pastures and pristine waterbeds, this world was notably only at a tribal stage of civilization at the time of first contact, and has since been rapidly elevated through technological intervention into a space-faring society.
+  [color=#999999][italic]“Have you ever been headbutt by a freight train? It’s like that, but fluffier. The last thing you want is one of these brick houses waking up and choosing violence.”[/italic][/color]
 
-## Physiology
+  <Box HorizontalAlignment="Right">
+    [color=#999999][italic]— Adjutant General Janssen, BuPers[/italic][/color]
+  </Box>
 
-Ovinia posess a dense, sturdy build, with strong musculature and [color=#1e90ff]hard-wearing hooves, which protect their feet from most common hazards, such as broken glass[/color]. In addition, their body is mostly coated in thick, insulative wool, which [color=#1e90ff]reduces their heat, cold and shock damage taken by 20%, as well as reducing their overall flammability by around 25%[/color]. Their coat, however, does little to protect them from physical harm, and their musculature is [color=#ffa500]15% more vulnerable to slash and piercing damage[/color].
+  <Box Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Box Orientation="Vertical" HorizontalAlignment="Left">
+      [mono][color=#897236]DESIGNATION[/color]  SPC-RMN[/mono]
 
-<Box>
-  <GuideEntityEmbed Entity="ClothingHeadPyjamaSyndicateBlack" Caption=""/>
-</Box>
+      [mono][color=#897236]CLASS      [/color]  Humanoid // Ruminant[/mono]
 
-The evolutionary advantages of this coat, however, come at a cost. Almost 73% of their metabolic intake is dedicated purely to growing their wool, and as of such they are often [color=#ffa500]sleepy and docile, causing them to sleep for far longer periods than most species[/color]. Notably, however, their gentle demeanor and naturalistic tendencies [color=#1e90ff]cause wild animals to behave in a much more docile manner around them[/color].
-This lopsided metabolic structure also manifests in their digestive system "slow-burning" food to increase efficiency, resulting in them [color=#1e90ff]becoming hungry and thirsty 25% slower[/color], although their evolutionary background of grazing has led them to [color=#ffa500]chew food and drink fluids roughly 20% slower than an average human[/color] in the same age and physical performance range. Notably, they also join Moths, Reptiles and various other species in being [color=#ffa500]poisoned by Theobromine (Chocolate, Tea, Coffee) and Allicin (Onion, Garlic)[/color].
+      [mono][color=#897236]ORIGIN     [/color]  Runia[/mono]
 
-## Culture
+      [mono][color=#897236]METABOLIC  [/color]  [color=#a4885c][bold]Iron BLood[/bold][/color] — Standard Baseline[/mono]
 
-An Ovinia's woolen coat is deeply important to both their physical and mental wellbeing, holding an incredibly high significance in Ovinia culture. They pride themselves on their coat, hold great import in gifting their excess wool to others, and often forgo standard Nanotrasen uniform options to avoid hiding it, though exposure to outside cultural influence has trended to warm them to more traditional fashion. It is [bold]highly[/bold] recommended for staff to maintain respect regarding their wool as to not cause workplace incidents.
+      [mono][color=#897236]STATUS     [/color]  [color=lime]► Approvedm, Conditional[/color][/mono]
+    </Box>
 
-## Ovinia Naming Conventions
+    <ColorBox OutlineColor="#ffd688" OutlineThickness="3" Margin="16" VerticalAlignment="Center">
+      <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="4">
+        <GuideEntityEmbed Entity="MobOvinia" Caption="" Scale="3.5"/>
+      </Box>
+    </ColorBox>
+  </Box>
 
-Ovinia culture lacks gendered names or pronouns, with names generally consisting of soft consonants and often being between 1 and 4 syllables long, with names being flowy. More often than not, Ovinia will resort to nicknames by shortening longer names to their first syllables. First names are often abstract, named after concepts or virtues, while last names are used to differentiate flock lineages. Ovinia also have a habit of adopting the naming schemes of other species, showcasing a herd mentality.
+  Subject: A hooved, unguligrade species of Ruminants from the pastoral planet Runia in the Lanei system. Peaceful by nature, their society was archaic before first contact and has forced them to adapt to modern society. Their fine wool grows at an alarming rate, requiring frequent maintenance to not become a hazard. This coat of wool is of great cultural importance, gifts of wool being a sign of great trust and friendship. Shearing of an Ovinia qualifies as assault. 
 
-  - [color=#449944]Acceptable:[/color] Mera Phaelarune
-  - [color=#449944]Acceptable:[/color] Lethaavul Rhymehelai
-  - [color=#449944]Acceptable:[/color] Baareivelaa Vylune
-  - [color=#449944]Acceptable:[/color] Ruth Lyvahlia
-  - [color=#449944]Acceptable:[/color] Thallinn Mehhvaa
-  - [color=#994444]Bad:[/color] Sheepie Beepie
-  - [color=#994444]Bad:[/color] BaaBaa Woolie
-  - [color=#994444]Bad:[/color] Arnold Palmer
-  - [color=#994444]Bad:[/color] Screaming Goat
-  - [color=#994444]Bad:[/color] Benry
+  [color=#897236][mono]──── [color=#ff66aa][bold]TOLERANCE PROFILE[/bold][/color] ───────────────────────────────[/mono][/color]
+
+  [mono]  Heat      [color=#1e90ff]■■■■[/color][color=#555555]□[/color]  resistant – wool provides partial insulation against high temperatures[/mono]
+
+  [mono]  Cold      [color=#1e90ff]■■■■[/color][color=#555555]□[/color]  resistant – wool provides partial insulation against rapid freezing vulnerable[/mono]
+
+  [mono]  Pressure  [color=#897236]■■■[/color][color=#555555]□□[/color]   baseline[/mono]
+
+  [mono]  Shock     [color=#1e90ff]■■■■[/color][color=#555555]□[/color]  resistant – wool provides partial insulation from electrical shocks[/mono]
+
+  [color=#897236][mono]──── [color=#ffa500][bold]DIETARY ACCOMMODATIONS[/bold][/color] ──────────────────────────[/mono][/color]
+
+  - [color=#ffa500][bold]Dietary range[/bold][/color]: Herbivore. Ensure adequate vegetables and grains are made available to Ovinians in sector.
+  - [color=red][bold]▲ Warning:[/bold][/color] [color=#a4885c][bold]Theobromine[/bold][/color] (chocolate, tea, coffee) and [color=#a4885c][bold]Allicin[/bold][/color] (onion, garlic) are toxic. Both induce poison damage in the bloodstream.
+  [color=#897236][mono]──── [color=#00ccff][bold]RESPIRATORY PROTOCOL[/bold][/color] ────────────────────────────[/mono][/color]
+
+  - Breathes [color=#1e90ff][bold]Oxygen[/bold][/color]; suffocates without sufficient supply.
+  - Inert [color=#1e90ff][bold]Nitrogen[/bold][/color] tolerated as atmospheric buffer.
+  - Pressure tolerance: safe [color=#1e90ff][bold]50–385 kPa[/bold][/color]; barotrauma outside [color=#ffa500][bold]20–550 kPa[/bold][/color].
+
+  [color=#897236][mono]──── [color=#1e90ff][bold]WORKPLACE APTITUDES[/bold][/color] ─────────────────────────────[/mono][/color]
+
+  - [color=#1e90ff][bold]Peaceful Nature[/bold][/color] causes certain xenofauna to not be hostile towards Ovinia.
+  - [color=#1e90ff][bold]Thick wool coats[/bold][/color] provides partial insulation against heat, cold, and electrical shocks. Engineering assignments are preferable due to these genetic capabilities.
+  - [color=#1e90ff][bold]Vulnerable hide[/bold][/color] is susceptible to both slashing and piercing.
+  - Take [color=#1e90ff][bold]increased toxins and radiation damage[/bold][/color].
+  - [color=#1e90ff][bold]Reinforced hooves[/bold][/color] prevent cuts from walking on substances such as glass.
+
+  [color=#897236][mono]──── [color=#ffdd33][bold]SPECIAL PROTOCOLS[/bold][/color] ───────────────────────────────[/mono][/color]
+
+  - [color=#a4885c][bold]No entries on file[/bold][/color] 
+
+  [color=#897236][mono]──── [color=#cc3333][bold]LIABILITIES / INSURANCE FLAGS[/bold][/color] ───────────────────[/mono][/color]
+
+  [color=red][bold]▲ Warning:[/bold][/color] [color=#ffa500][bold]Due to excessive systemic shock from radiation and toxins, an ample supply of appropriate medications is to be kept on hand for treatments when possible.
+  <Box HorizontalAlignment="Center">
+    [head=2][color=#897236]──────═════  [head=1]◊[/head]  ═════──────[/color][/head]
+  </Box>
+
+  <Box HorizontalAlignment="Center">
+    [mono][color=#897236]╔════════════════════════════════════════════════════╗[/color]\n[color=#897236]║ [/color][color=lime]FILED · APPROVED[/color][color=#897236]                        X828.05.23 ║[/color]\n[color=#897236]║ Adj Gen Janssen, BuPers · S3         FILE COMPLETE ║[/color]\n[color=#897236]╚════════════════════════════════════════════════════╝[/color][/mono]
+  </Box>
+
 </Document>
-

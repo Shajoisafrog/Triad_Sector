@@ -18,7 +18,7 @@
   name: chat-emote-name-baa
   category: Vocal
   available: false
-  icon: _MACRO/Interface/Emotes/baa.png
+  icon: _Triad/Interface/Emotes/baa.png
   whitelist:
     requireAll: true
     components:
@@ -44,7 +44,7 @@
   id: Moo
   name: chat-emote-name-moo
   category: Vocal
-  icon: _MACRO/Interface/Emotes/moo.png
+  icon: _Triad/Interface/Emotes/moo.png
   available: false
   whitelist:
     components:

@@ -6,3 +6,5 @@
     Heat: 0.8
     Cold: 0.8
     Shock: 0.8
+    Radiation: 1.15
+    Poison: 1.15
