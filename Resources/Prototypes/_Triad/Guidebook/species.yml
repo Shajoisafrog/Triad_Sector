@@ -1,4 +1,3 @@
-# MACROCOSM - If you enable extra species, uncomment their related guideEntry prototype here to add them to the guidebook for your players!
 - type: guideEntry
   id: Ovinia
   name: Ovinia
