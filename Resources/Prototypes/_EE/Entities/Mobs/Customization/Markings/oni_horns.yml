@@ -151,7 +151,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   forcedColoring: false
-  speciesRestriction: [Oni,Ovinia]
+  speciesRestriction: [Oni, Ovinia]
   sprites:
   - sprite: Einstein-Engines/Mobs/Customization/Oni/oni_horns.rsi
     state: sagittarius_3tone_1
