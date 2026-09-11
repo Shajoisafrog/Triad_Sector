@@ -498,7 +498,7 @@
       metabolismRate: 0.2
       effects:
       - !type:HealthChange
-        ignoreResistances: false
+        ignoreResistances: false # Triad - poison resistance
         conditions:
         - !type:OrganType # Goobstation - Yowie
           type: Yowie
