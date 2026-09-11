@@ -1,16 +1,28 @@
 - type: emote
   id: Hiss
-  name: chat-emote-name-hiss
+  category: Vocal
+  name: chat-emote-name-reptilian-hiss # Triad: was literal `Hiss`
+  icon: _Impstation/Interface/Emotes/hiss.png # Triad - change icon
+  available: false
   whitelist:
     components:
     - Vocal
-  category: Vocal
-  available: false
-  chatMessages: ["chat-emote-msg-hiss"]
+    - ReptilianEmotes # Triad
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["chat-emote-msg-reptilian-hiss"] # Triad - localization
   chatTriggers:
-  - hiss
-  - hisses
-  - hissed
+    - hiss
+    - hisses
+    - hiss.
+    - hisses.
+    - hisses!
+    - hissing
+    - hissed
+    - hissing.
+    - hissed.
+  
 
 # Ovinia
 - type: emote
