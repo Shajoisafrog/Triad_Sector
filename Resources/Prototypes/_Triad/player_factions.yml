@@ -56,3 +56,20 @@
   image: /Textures/_Triad/PlayerFactions/Bloodstone.png
   color: "#5d0505"
   whitelisted: true
+
+- type: company
+  id: SHI
+  name: Shackford Heavy Industries
+  description: shi-description
+  image: /Textures/_Triad/PlayerFactions/SHI.png
+  color: "#4eb930"
+  whitelisted: true
+
+- type: company
+  id: TheWingedChoir
+  name: The Winged Choir
+  description: thewingedchoir-description
+  image: /Textures/_Triad/PlayerFactions/TheWingedChoir.png
+  color: "#FFFFE3"
+  whitelisted: true
+
