@@ -124,9 +124,10 @@ public sealed partial class SpeciesPrototype : IPrototype
     /// <summary>
     ///     The default hair style given to this species, for random character generation.
     ///     Null allows random hair styles.
+    //      This is a string value because HairBald does not exist as a prototype, technically.
     /// </summary>
     [DataField]
-    public ProtoId<MarkingPrototype>? DefaultHair = null;
+    public string? DefaultHair = null;
 }
 
 public enum SpeciesNaming : byte
