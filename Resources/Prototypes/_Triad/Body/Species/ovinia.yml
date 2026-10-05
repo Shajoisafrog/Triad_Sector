@@ -219,6 +219,12 @@
     requiredLegs: 2
   - type: HumanoidAppearance
     species: Ovinia
+    hideLayersOnEquip:
+    - Snout
+    - HeadTop
+    - HeadSide
+    - Hair
+    - Tail
 
 - type: entity
   parent:

@@ -87,18 +87,12 @@
   id: MobIPCDossierExemplar
   suffix: BuPers Dossier
   categories: [ HideSpawnMenu ]
-  components:
-  - type: DossierExemplar
-    hair: HairBald # no hair
 
 - type: entity
   parent: [ MobMoth, BaseMobDossierExemplar ]
   id: MobMothDossierExemplar
   suffix: BuPers Dossier
   categories: [ HideSpawnMenu ]
-  components:
-  - type: DossierExemplar
-    hair: HairBald # no hair
 
 - type: entity
   parent: [ MobOni, BaseMobDossierExemplar ]
@@ -111,27 +105,18 @@
   id: MobOviniaDossierExemplar
   suffix: BuPers Dossier
   categories: [ HideSpawnMenu ]
-  components:
-  - type: DossierExemplar
-    hair: HairBald # no hair
 
 - type: entity
   parent: [ MobProtogen, BaseMobDossierExemplar ]
   id: MobProtogenDossierExemplar
   suffix: BuPers Dossier
   categories: [ HideSpawnMenu ]
-  components:
-  - type: DossierExemplar
-    hair: HairBald # no hair
 
 - type: entity
   parent: [ MobReptilian, BaseMobDossierExemplar ]
   id: MobReptilianDossierExemplar
   suffix: BuPers Dossier
   categories: [ HideSpawnMenu ]
-  components:
-  - type: DossierExemplar
-    hair: HairBald # no hair
 
 - type: entity
   parent: [ MobResomi, BaseMobDossierExemplar ]
@@ -150,9 +135,6 @@
   id: MobShadekinDossierExemplar
   suffix: BuPers Dossier
   categories: [ HideSpawnMenu ]
-  components:
-  - type: DossierExemplar
-    hair: HairBald # no hair
 
 - type: entity
   parent: [ MobSlimePerson, BaseMobDossierExemplar ]
