@@ -159,7 +159,7 @@ public sealed partial class HumanoidCharacterAppearance : ICharacterAppearance, 
             : HairStyles.DefaultHairStyle.Id;
 
         if (speciesProto.DefaultHair != null)
-            newHairStyle = speciesProto.DefaultHair.Value.Id;
+            newHairStyle = speciesProto.DefaultHair;
 
         var newFacialHairStyle = facialHairStyles.Count == 0 || sex == Sex.Female
             ? HairStyles.DefaultFacialHairStyle.Id
