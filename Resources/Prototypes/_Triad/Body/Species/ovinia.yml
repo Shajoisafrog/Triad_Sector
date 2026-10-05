@@ -287,7 +287,6 @@
     - CanPilot
     - FootstepSound
     - AnomalyHost
-
   - type: NpcFactionMember
     factions:
     - AnimalFriend
