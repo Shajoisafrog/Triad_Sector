@@ -7,7 +7,7 @@
     [head=2][color=#897236]──────═════  [head=1]◊[/head]  ═════──────[/color][/head]
   </Box>
 
-  [color=#999999][italic]“Have you ever been headbutt by a freight train? It’s like that, but fluffier. The last thing you want is one of these brick houses waking up and choosing violence.”[/italic][/color]
+  [color=#999999][italic]"Have you ever been headbutt by a freight train? It's like that, but fluffier. The last thing you want is one of these brick houses waking up and choosing violence."[/italic][/color]
 
   <Box HorizontalAlignment="Right">
     [color=#999999][italic]— Adjutant General Janssen, BuPers[/italic][/color]
@@ -19,7 +19,7 @@
 
       [mono][color=#897236]CLASS      [/color]  Humanoid // Ruminant[/mono]
 
-      [mono][color=#897236]ORIGIN     [/color]  Runia[/mono]
+      [mono][color=#897236]ORIGIN     [/color]  Runia, Lanei System[/mono]
 
       [mono][color=#897236]METABOLIC  [/color]  [color=#a4885c][bold]Iron BLood[/bold][/color] — Standard Baseline[/mono]
 
@@ -33,7 +33,9 @@
     </ColorBox>
   </Box>
 
-  Subject: A hooved, unguligrade species of Ruminants from the pastoral planet Runia in the Lanei system. Peaceful by nature, their society was archaic before first contact and has forced them to adapt to modern society. Their fine wool grows at an alarming rate, requiring frequent maintenance to not become a hazard. This coat of wool is of great cultural importance, gifts of wool being a sign of great trust and friendship. Shearing of an Ovinia qualifies as assault. 
+  Subject: A hooved, unguligrade species of Ruminants from the pastoral planet Runia in the Lanei system. Peaceful by nature, their society was archaic before first contact and has forced them to adapt to modern society. Their fine wool grows at an alarming rate, requiring frequent maintenance to not become a hazard. This coat of wool is of great cultural importance, gifts of wool being a sign of great trust and friendship. Shearing of an Ovinia qualifies as assault.
+
+  Background: In 2708, the pastoral world of Runia suffered catastrophic attacks. The Ovinia were thrown into diaspora, very few Ovinia making it off planet in the initial disaster. Many of those who did returned to their religious roots and old prophecies. They took to the stars in a series of great pasture ships; each vessel being an Ensemble of their Goddess's holiness, which when gathered was referred to as a Symphony. For the Ovinia living off planet at the time of Runia's scouring, they quickly integrated themselves into galactic society. These galactic Ovinia are more common than their pasture ship cousins; often found on engineering installations, research stations, or planetside as ranchers and farm hands.
 
   [color=#897236][mono]──── [color=#ff66aa][bold]TOLERANCE PROFILE[/bold][/color] ───────────────────────────────[/mono][/color]
 
@@ -49,7 +51,7 @@
 
   - [color=#ffa500][bold]Dietary range[/bold][/color]: Herbivore. Ensure adequate vegetables and grains are made available to Ovinians in sector.
   - [color=red][bold]▲ Warning:[/bold][/color] [color=#a4885c][bold]Theobromine[/bold][/color] (chocolate, tea, coffee) and [color=#a4885c][bold]Allicin[/bold][/color] (onion, garlic) are toxic. Both induce poison damage in the bloodstream.
-  
+
   [color=#897236][mono]──── [color=#00ccff][bold]RESPIRATORY PROTOCOL[/bold][/color] ────────────────────────────[/mono][/color]
 
   - Breathes [color=#1e90ff][bold]Oxygen[/bold][/color]; suffocates without sufficient supply.
@@ -66,7 +68,7 @@
 
   [color=#897236][mono]──── [color=#ffdd33][bold]SPECIAL PROTOCOLS[/bold][/color] ───────────────────────────────[/mono][/color]
 
-  - [color=#a4885c][bold]No entries on file[/bold][/color] 
+  - [color=#a4885c][bold]No entries on file[/bold][/color]
 
   [color=#897236][mono]──── [color=#cc3333][bold]LIABILITIES / INSURANCE FLAGS[/bold][/color] ───────────────────[/mono][/color]
 
