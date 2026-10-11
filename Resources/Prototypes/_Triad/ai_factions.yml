@@ -2,55 +2,38 @@
 - type: npcFaction
   id: TDF
   neutral:
-  - CC
   - SimpleNeutral
-  defaultHostile: false
+  friendly:
+  - TDFTurret
+  defaultHostileIncluded: false
 
 - type: npcFaction
   id: TDFTurret
   friendly:
   - TDF
-  neutral:
-  - CC
-  - SimpleNeutral
   defaultHostile: true
 
 # SD
 - type: npcFaction
   id: SD
   neutral:
-  - CC
   - SimpleNeutral
   hostile:
   - TDF
-  defaultHostile: true
-
-- type: npcFaction
-  id: SDTurret
-  friendly:
-  - SD
-  hostile:
-  - TDF
+  - TDFTurret
+  - Coalition
   defaultHostile: true
 
 # Imperial Coalition of Tau
 - type: npcFaction
   id: Coalition
   neutral:
-  - CC
   - SimpleNeutral
   hostile:
   - TDF
+  - TDFTurret
+  - SD
   defaultHostile: true
-
-- type: npcFaction
-  id: CoalitionTurret
-  friendly:
-  - Coalition
-  hostile:
-  - TDF
-  defaultHostile: true
-
 
 # Identity faction for autonomous NPC combat drones. Relations are deliberately empty:
 # the ship-targeting IFF only skips FRIENDLY targets, so an empty-relations faction changes
