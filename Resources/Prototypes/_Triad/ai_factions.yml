@@ -4,7 +4,7 @@
   neutral:
   - CC
   - SimpleNeutral
-  defaultHostile: true
+  defaultHostile: false
 
 - type: npcFaction
   id: TDFTurret
@@ -21,12 +21,16 @@
   neutral:
   - CC
   - SimpleNeutral
+  hostile:
+  - TDF
   defaultHostile: true
 
 - type: npcFaction
   id: SDTurret
   friendly:
   - SD
+  hostile:
+  - TDF
   defaultHostile: true
 
 # Imperial Coalition of Tau
@@ -35,12 +39,16 @@
   neutral:
   - CC
   - SimpleNeutral
+  hostile:
+  - TDF
   defaultHostile: true
 
 - type: npcFaction
   id: CoalitionTurret
   friendly:
   - Coalition
+  hostile:
+  - TDF
   defaultHostile: true
 
 
