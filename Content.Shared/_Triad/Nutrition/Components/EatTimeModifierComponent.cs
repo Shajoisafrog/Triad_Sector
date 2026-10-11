@@ -1,7 +1,7 @@
 using Content.Shared.Whitelist;
 using Robust.Shared.GameStates;
 
-namespace Content.Shared._MACRO.Nutrition.Components;
+namespace Content.Shared._Triad.Nutrition.Components;
 
 /// <summary>
 /// This component is used to modify the time to eat food by a specific modifier.

@@ -1,7 +1,7 @@
 using Content.Shared.Interaction.Components;
 using Content.Shared.Whitelist;
 
-namespace Content.Shared._MACRO.Interaction;
+namespace Content.Shared._Triad.Interaction;
 
 /// <summary>
 ///     Allows any entity with this component to have a different success rate when petting mobs with <see cref="InteractionPopupComponent"/>.

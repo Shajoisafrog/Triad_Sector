@@ -1,6 +1,6 @@
 using Robust.Shared.GameStates;
 
-namespace Content.Shared._MACRO.Bed.Sleep;
+namespace Content.Shared._Triad.Bed.Sleep;
 
 /// <summary>
 ///     Component that modifies an entity's sleep wakeup cooldown

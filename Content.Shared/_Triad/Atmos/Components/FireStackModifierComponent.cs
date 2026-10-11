@@ -1,4 +1,4 @@
-namespace Content.Shared._MACRO.Atmos.Components;
+namespace Content.Shared._Triad.Atmos.Components;
 
 /// <summary>
 /// This is used for modifying fire stacks.

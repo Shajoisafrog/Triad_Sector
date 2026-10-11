@@ -1,4 +1,4 @@
-using Content.Shared._MACRO.Interaction;
+using Content.Shared._Triad.Interaction;
 using Content.Shared.Bed.Sleep;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Interaction.Components;
@@ -94,7 +94,7 @@ public sealed partial class InteractionPopupSystem : EntitySystem
         if (_netMan.IsClient && !predict)
             return;
 
-        // MACRO ADD: PettingModifier
+        // Triad ADD: PettingModifier
         // TODO: this is a very generic system. we probably need a whitelist of some kind
         var successChance = component.SuccessChance;
 
@@ -102,9 +102,9 @@ public sealed partial class InteractionPopupSystem : EntitySystem
             && _entityWhitelist.IsWhitelistPassOrNull(pettingChance.TargetWhitelist, target)
             && _entityWhitelist.IsWhitelistFailOrNull(pettingChance.TargetBlacklist, target))
             successChance *= pettingChance.Modifier;
-        // MACRO END
+        // Triad END
 
-        if (_random.Prob(successChance)) // MACRO: component.SuccessChance -> successChance
+        if (_random.Prob(successChance)) // Triad: component.SuccessChance -> successChance
         {
             if (component.InteractSuccessString != null)
                 msg = Loc.GetString(component.InteractSuccessString, ("target", Identity.Entity(uid, EntityManager))); // Success message (localized).
